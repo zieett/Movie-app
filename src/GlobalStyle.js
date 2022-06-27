@@ -2,7 +2,7 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
     :root{
-        --max-width: 1280px;
+        --maxWidth: 1280px;
         --white:#fff;
         --lightGrey: #eee;
         --medGrey: #353535;
@@ -15,8 +15,8 @@ export const GlobalStyle = createGlobalStyle`
     *{
         box-sizing: border-box;
         font-family: 'Abel', sans-serif;
+      
     }
-
     body{
         margin:0;
         padding:0
