@@ -36,6 +36,7 @@ const Login = () => {
 
     return (
         <Wrapper>
+            {error && <div>There was an error</div>}
             <label>Username:</label>
             <input type="text" value={username} name="username" onChange={handleInput}></input>
             <input type="password" value={password} name="password" onChange={handleInput}></input>

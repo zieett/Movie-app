@@ -12,6 +12,10 @@ export const Content = styled.div`
     max-width: var(--maxWidth);
     padding: 20px 0;
     margin: 0 auto;
+    color: var(--white);
+    a {
+        color: var(--white);
+    }
 `;
 
 export const LogoImg = styled.img`
