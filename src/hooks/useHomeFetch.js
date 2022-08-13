@@ -15,6 +15,7 @@ export const useHomeFetch = () => {
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState(false);
     const [isLoadingMore, setIsLoadingMore] = useState(false);
+    console.log("hello");
     const fetchMovies = async (page, searchTerm = "") => {
         try {
             setError(false);

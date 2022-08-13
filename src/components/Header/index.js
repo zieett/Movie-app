@@ -17,7 +17,7 @@ const Header = () => {
                     <span className="loggedin">Logged in as: {user.username}</span>
                 ) : (
                     <Link to="/login">
-                        <a className="login">Login in</a>
+                        <span className="login">Login in</span>
                     </Link>
                 )}
                 <TMDBLogoImg src={RMDBLogo} />
